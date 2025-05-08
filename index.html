@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <title>Objekat Pas</title>
+</head>
+<body>
+  <h2>Pas i njegov zvuk:</h2>
+
+  <script>
+    const pas = {
+      ime: "Reks",
+      godine: 2
+    };
+
+    pas.zvuk = function() {
+      return "AV AV!";
+    };
+	
+    document.write("Ime psa: " + pas.ime + "<br>");
+    document.write("Godine: " + pas.godine + "<br>");
+    document.write("Pas kaže: " + pas.zvuk());
+  </script>
+</body>
+</html>
